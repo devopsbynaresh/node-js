@@ -1,0 +1,29 @@
+{
+  "name": "accountingtool.com-backend-nodejs-v.1",
+  "version": "1.0.0",
+  "description": "accounting tool all apis",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/tutorials/tutorials.git.bitbucket.org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/tutorials/tutorials.git.bitbucket.org#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "binance-api-node": "^0.10.4",
+    "ccxt": "^1.33.7",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.16",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2",
+    "uuid": "^8.1.0"
+  }
+}
